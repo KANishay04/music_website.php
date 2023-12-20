@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home2" transform="translate(-242.000000, -1077.000000)">
+            <g id="Group" transform="translate(226.000000, 1063.000000)" filter="url(#filter-1)">
+                <g transform="translate(16.111111, 14.444444)" fill="#FFFFFF" fill-rule="nonzero" id="Path">
+                    <path d="M14.1891441,6.91406316 L2.40808553,0.159220965 C2.05980289,-0.0294737969 1.62732845,0.00196376362 1.30070385,0.00196376362 C-0.00579452109,0.00196376362 -9.42971907e-17,0.919898892 -9.42971907e-17,1.15245356 L-9.42971907e-17,14.9586087 C-9.42971907e-17,15.1552149 -0.00571826031,16.1091679 1.30070385,16.1091679 C1.62732845,16.1091679 2.05987916,16.1404667 2.40808553,15.9518413 L14.1890678,9.19706853 C15.1560535,8.67345617 14.9889663,8.05553116 14.9889663,8.05553116 C14.9889663,8.05553116 15.1561297,7.43760612 14.1891441,6.91406316 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
