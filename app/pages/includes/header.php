@@ -16,7 +16,7 @@
 		    color: white; /* Цвет текста заголовка */
 		}
 	.main-nav {
-    background-color: white;
+    background-color:#e8f2ff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-image: white;
     background-size: 150%;
@@ -24,9 +24,35 @@
     margin-left: auto; 
 }
 .nav-item.active a {
-		    color: white; 
+		    color: black; 
 			
 		}
+		form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-control {
+            width: 60%;
+            border-radius: 5px; /* Adjusted border-radius */
+            padding: 10px; /* Adjusted padding */
+            border: 1px solid #007bff; /* Border color */
+        }
+
+        .btn {
+            border-radius: 5px;
+            margin-left: 10px;
+            padding: 10px; /* Adjusted padding */
+            background-color: #007bff; /* Button color */
+            color: white; /* Text color */
+            border: 1px solid #007bff; /* Border color */
+        }
+
 	</style>
 
 
@@ -35,11 +61,18 @@
 
 	<header>
 		<div class="logo-holder">
-			<a href="<?=ROOT?>"><img class="logo" src="<?=ROOT?>/assets/images/1.jpg"></a>
+			<a href="<?=ROOT?>"><img class="logo" src="<?=ROOT?>/assets/images/logotip.png"></a>
 		</div>
 		<div class="header-div">
 			<div class="main-title">
-				MUSIC WEBSITE
+				
+					<!-- <div class="footer-div"> -->
+					<form action="<?=ROOT?>/search">
+        <div class="form-group">
+            <input class="form-control" type="text" placeholder="Search for music" name="find">
+            <button class="btn btn-primary">Search</button>
+        </div>
+    </form>
 				<div class="socials">
 					<svg width="25" height="25" fill="blue" class="bi bi-facebook" viewBox="0 0 16 16">
 					  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -82,14 +115,14 @@
         <a href="<?= ROOT ?>/login">Login</a>
     </div>
 <?php endif; ?>
-
-				<!-- <div class="footer-div"> -->
+<!-- 
+				<div class="footer-div">
 			<form action="<?=ROOT?>/search">
 				<div class="form-group">
 					<input class="form-control" type="text" placeholder="Search for music" name="find">
 					<button class="btn">Search</button>
 				</div>
-			</form>
+			</form> -->
 		<!-- </div> -->
 				<?php if(logged_in()):?>
 					<div class="nav-item dropdown">

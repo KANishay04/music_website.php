@@ -1,7 +1,7 @@
 <?php require page('includes/header')?>
 
 <section style="position: relative;">
-    <img class="hero" src="<?=ROOT?>/assets/images/13.jpg">
+    <img class="hero" src="<?=ROOT?>/assets/images/home.jpg">
     
 </section>
 

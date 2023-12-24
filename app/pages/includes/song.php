@@ -14,30 +14,24 @@
     </div>
 </div>
 <style>
-    .music-card {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .background-gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right top, #9fb5d6, #97c8dc, #a1d9d7, #bee6cf, #e4efcc) !important;
+        border-radius: inherit;
+        pointer-events: none; /* чтобы не мешать кликам на содержимом */
+        z-index: -1; /* Устанавливаем фон под содержимым */
     }
 
-  .background-gradient {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to right top, #9fb5d6, #97c8dc, #a1d9d7, #bee6cf, #e4efcc) !important;
-    border-radius: inherit;
-    pointer-events: none; /* чтобы не мешать кликам на содержимом */
-    z-index: -1; /* Устанавливаем фон под содержимым */
-}
     .img-container {
         overflow: hidden;
         width: 140px;
         height: 140px;
-        position: relative; /* чтобы позиционировать player-button внутри img-container */
+        position: relative;
+        border-radius: 50%; /* Добавляем скругление углов для создания круглой формы */
     }
 
     .player-button {
